@@ -2,6 +2,7 @@
     color: rgb(52, 55, 164);
     font-size: 25;
     text-align: left; 
+    font-weight: lighter;
     /* margin-top: 200px;  */
     background-size: cover;
     background-repeat: no-repeat;  
@@ -54,3 +55,32 @@ select, ul, li {
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center the items horizontally */
   }
+
+
+
+
+h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 50px;
+    color: rgb(52, 55, 164);
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+
+.goals {    
+    all: revert;
+    appearance: none;
+    display: list-item;
+    list-style-type: square;
+    line-height: 1.5;
+    min-width: 200px;
+    font-size: 35px;
+}
+.currentPage {
+    color: rgb(52, 55, 164);
+    font-weight: bold;
+}
+
