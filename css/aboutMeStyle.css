@@ -1,0 +1,117 @@
+.topLeftName { 
+    color: rgb(52, 55, 164);
+    font-size: 25;
+    text-align: left; 
+    font-weight: lighter;
+    /* margin-top: 200px;  */
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+}
+html {
+    background-color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+body {
+    text-align: left;
+    font-size: 20px;
+    
+}
+p {
+    clear:both;
+    margin-top: 50px;
+}
+
+
+
+
+select, ul, li {
+    appearance: none; /* Remove default styling */
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    font-size: 25px;
+  }
+  a {
+    color:rgb(124, 127, 196);
+    text-decoration: none;
+  }
+  
+
+  nav {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+  }
+
+
+
+
+h2 {
+    all: unset;
+    background-color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(52, 55, 164);
+    text-align: left;
+    padding-left: 50px;
+}
+
+h3 {
+    all: unset;
+    background-color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(102, 105, 163);
+    text-align: left;
+    padding-left: 50px;
+}
+h4 {
+    all: unset;
+    background-color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 10, 184);
+    text-align: right;
+    padding-left: 50px;
+}
+.history li {    
+    margin-left: 50px;
+    padding-left: 50px;
+    appearance: none;
+    text-align: left;
+    display: list-item;
+    list-style-type: ">";
+    padding-left:  0.4;
+    /* list-style: square; */
+    line-height: 1.5;
+    /* min-width: 200px; */
+    font-size: 25px;
+}
+.history li + p {
+    color:rgb(26, 66, 127);
+    text-align: right;
+    float: right;
+    font-size: 25px;
+}
+
+
+.currentPage {
+    color: rgb(52, 55, 164);
+    font-weight: bold;
+}
+
