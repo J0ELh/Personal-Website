@@ -32,9 +32,10 @@ p {
 
 
 .hook{
-    font-size: 25px;
+    font-size: 24px;
     width: 80%;
     text-align: center;
+    margin-left: 40px;
 }
 
 select, ul, li {
@@ -54,3 +55,8 @@ select, ul, li {
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center the items horizontally */
   }
+
+  b {
+    font-size: 25;
+    color:rgb(102, 106, 206);
+}
